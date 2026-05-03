@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dos Chamakas – Tacos Authentiques à Vaudreuil-Dorion</title>
+  <meta name="description" content="Dos Chamakas est un fast-food mexicain offrant des tacos authentiques, des desserts traditionnels et des saveurs fraîches à Vaudreuil-Dorion, QC. Ouvert 7 jours, 11h–22h." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="index.html">Accueil</a>
+  <a href="menu.html">Menu</a>
+  <a href="index.html#about">À Propos</a>
+  <a href="contact.html">Contact</a>
+  <a href="menu.html" class="btn-primary btn-sm" style="margin-top:8px">Commander</a>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">DOS CHAMAKAS</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Accueil</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="index.html#about">À Propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="menu.html" class="nav-cta">Commander →</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-glow-1"></div>
+  <div class="hero-glow-2"></div>
+  
+  <div class="hero-animated-food reveal">
+    <img src="images/page break/Gemini_Generated_Image_9twzuv9twzuv9twz.png" class="food-layer active" alt="Burrito" />
+    <img src="images/page break/Gemini_Generated_Image_ol22o1ol22o1ol22.png" class="food-layer" alt="Taco" />
+    <img src="images/page break/Gemini_Generated_Image_w9zjhlw9zjhlw9zj.png" class="food-layer" alt="Quesadilla" />
+  </div>
+
+  <div class="container hero-container">
+    <div class="hero-content">
+      <div class="hero-badge">⭐ 4.8/5 · Vaudreuil-Dorion, QC</div>
+      <h1 class="hero-title">
+        <span class="line1">TACOS.</span>
+        <span class="line2">TACOS.</span>
+        <span class="line3">TACOS.</span>
+      </h1>
+      <p class="hero-sub">Des saveurs mexicaines authentiques servies rapidement. Fraîcheur garantie, chaque jour de la semaine.</p>
+      <div class="hero-actions">
+        <a href="menu.html" class="btn-primary">Voir le Menu →</a>
+        <a href="contact.html" class="btn-ghost">Nous Trouver</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll" style="position:absolute; bottom: 30px; left: 50%; transform: translateX(-50%); margin-top:0;">
+    <span>Découvrir</span>
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+  </div>
+</section>
+
+<!-- STATS BAND -->
+<div class="stats-band">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-num" data-count="4.8">4.8</div>
+        <div class="stat-label">Note Google / 5</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <div class="stat-num">145+</div>
+        <div class="stat-label">Avis Vérifiés</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <div class="stat-num">7</div>
+        <div class="stat-label">Jours par Semaine</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <div class="stat-num">$20</div>
+        <div class="stat-label">Prix Moyen / Personne</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SIGNATURE ITEMS -->
+<section id="signature">
+  <div class="container">
+    <div style="text-align:center">
+      <span class="section-tag">Nos Spécialités</span>
+      <h2 class="section-title">Ce qui nous rend <span class="gradient-text">irrésistibles</span></h2>
+      <p class="section-sub">Des ingrédients frais, des recettes authentiques — chaque plat est une invitation au Mexique.</p>
+    </div>
+    <div class="signature-grid">
+      <a href="menu.html" class="sig-card glass reveal">
+        <div style="overflow:hidden">
+          <img src="images/taco_al_pastor.png" alt="Tacos Authentiques" class="sig-card-img" />
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-title">Tacos Authentiques</h3>
+          <p class="sig-card-desc">Al pastor, bœuf, crevettes ou poulet — garnis de coriandre, oignon et salsa maison.</p>
+          <span class="sig-card-price">À partir de $3.50</span>
+        </div>
+      </a>
+      <a href="menu.html" class="sig-card glass reveal reveal-delay-1">
+        <div style="overflow:hidden">
+          <img src="images/quesadilla.png" alt="Quesadillas" class="sig-card-img" />
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-title">Quesadillas Grillées</h3>
+          <p class="sig-card-desc">Tortillas dorées, fromage fondant, bœuf ou poulet avec poivrons et jalapeños.</p>
+          <span class="sig-card-price">À partir de $11.00</span>
+        </div>
+      </a>
+      <a href="menu.html" class="sig-card glass reveal reveal-delay-2">
+        <div style="overflow:hidden">
+          <img src="images/churros.png" alt="Desserts Traditionnels" class="sig-card-img" />
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-title">Desserts Traditionnels</h3>
+          <p class="sig-card-desc">Churros croustillants, Tres Leches onctueux — des douceurs mexicaines pour finir en beauté.</p>
+          <span class="sig-card-price">À partir de $6.00</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="about" class="surface-section">
+  <div class="container">
+    <div style="text-align:center">
+      <span class="section-tag">Pourquoi Dos Chamakas</span>
+      <h2 class="section-title">La qualité <span class="gradient-text">avant tout</span></h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card glass reveal">
+        <div class="why-icon">🌿</div>
+        <h3 class="why-title">Fraîcheur Garantie</h3>
+        <p class="why-desc">Nos ingrédients sont sélectionnés et préparés chaque jour pour vous offrir des saveurs fraîches et authentiques.</p>
+      </div>
+      <div class="why-card glass reveal reveal-delay-1">
+        <div class="why-icon">⚡</div>
+        <h3 class="why-title">Service Express</h3>
+        <p class="why-desc">Votre repas est prêt en 15 à 30 minutes. Mangez sur place ou emportez — rapide sans compromis sur la qualité.</p>
+      </div>
+      <div class="why-card glass reveal reveal-delay-2">
+        <div class="why-icon">💛</div>
+        <h3 class="why-title">Prix Abordables</h3>
+        <p class="why-desc">Un repas complet pour $20–30 par personne. De la vraie cuisine mexicaine sans se ruiner.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOURS BAND -->
+<div class="hours-band">
+  <div class="container">
+    <p class="hours-label">🕐 Heures d'ouverture</p>
+    <h2 class="hours-title">OUVERT 7 JOURS · <span class="gradient-text">11H – 22H</span></h2>
+    <p class="hours-sub">468 Bd Harwood, Vaudreuil-Dorion, QC J7V 7H4 &nbsp;·&nbsp; <a href="tel:5142221311" style="color:var(--orange);text-decoration:none">(514) 222-1311</a></p>
+    <div style="margin-top:28px">
+      <a href="contact.html" class="btn-ghost">Voir sur la Carte</a>
+    </div>
+  </div>
+</div>
+
+<!-- REVIEWS -->
+<section>
+  <div class="container">
+    <div style="text-align:center">
+      <span class="section-tag">Témoignages</span>
+      <h2 class="section-title">Ce que disent <span class="gradient-text">nos clients</span></h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card glass reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Beautiful atmosphere, friendly staff and great food! Je reviendrai certainement."</p>
+        <div class="review-author">Lillian Chevrier</div>
+        <div class="review-source">Google Reviews</div>
+      </div>
+      <div class="review-card glass reveal reveal-delay-1">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"We ordered the shrimp, chicken tacos and beef quesadilla. Everything was delicious and fresh!"</p>
+        <div class="review-author">Moe Mantash</div>
+        <div class="review-source">Google Reviews</div>
+      </div>
+      <div class="review-card glass reveal reveal-delay-2">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Une expérience culinaire mexicaine authentique à Vaudreuil! Les tacos al pastor sont absolument incroyables."</p>
+        <div class="review-author">RestoEnLigne</div>
+        <div class="review-source">145 votes · 4.8/5</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-brand">DOS CHAMAKAS</span>
+        <p class="footer-tagline">Fast-food mexicain authentique à Vaudreuil-Dorion. Des tacos frais, des desserts traditionnels et des saveurs inoubliables — chaque jour.</p>
+        <div class="social-links" style="margin-top:24px">
+          <a href="https://www.facebook.com" target="_blank" class="social-link" aria-label="Facebook">f</a>
+          <a href="https://www.instagram.com" target="_blank" class="social-link" aria-label="Instagram">ig</a>
+          <a href="https://maps.google.com/?q=Dos+Chamakas+Vaudreuil-Dorion" target="_blank" class="social-link" aria-label="Google Maps">📍</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="index.html#about">À Propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4 class="footer-heading">Contact</h4>
+        <p>
+          468 Bd Harwood<br>
+          Vaudreuil-Dorion, QC J7V 7H4<br><br>
+          <a href="tel:5142221311" style="color:var(--orange);text-decoration:none">(514) 222-1311</a><br><br>
+          Lun – Dim: 11h00 – 22h00
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Dos Chamakas. Tous droits réservés.</span>
+      <a href="https://maps.google.com/?q=Dos+Chamakas+Vaudreuil-Dorion" target="_blank" style="color:var(--orange);text-decoration:none;font-weight:600;">Voir sur Google Maps →</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
